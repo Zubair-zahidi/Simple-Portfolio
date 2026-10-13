@@ -1,2 +1,0 @@
-name:Zubair
-passwd: Kardan
