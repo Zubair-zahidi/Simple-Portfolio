@@ -1,34 +1,19 @@
 # Simple Portfolio
 
-A clean and simple personal portfolio website built with HTML, CSS, and JavaScript.  
+An early personal portfolio built with HTML, CSS, and JavaScript. This project records experiments in page layout, visual styling, and browser interaction.
 
-This project showcases your personal projects, images, and information. The main entry point of the website is `index.html`.
+## Run locally
 
----
+```bash
+git clone https://github.com/Zubair-zahidi/Simple-Portfolio.git
+cd Simple-Portfolio
+python -m http.server 8000
+```
 
-## 📁 Project Structure
+Open `http://localhost:8000/`. The main entry is `index.html`; `portfolio.html` provides an additional portfolio page. Styles and interactions live in the CSS and JavaScript files, with artwork under `images/`.
 
-Simple-Portfolio/
-├── .vscode/ # VSCode settings
-├── images/ # All images used in the portfolio
-├── My portfolio/ # Optional sub-folder for additional portfolio pages
-├── zubair zahidi web passswd/ # Optional folder for personal notes (if needed)
-├── index.html # Main HTML file (entry point)
-├── portfolio.html # Portfolio page
-├── portfolio.css # Styles for portfolio page
-├── portfolio.js # JS functionality for portfolio page
-├── script.js # JS script for general interactivity
-├── style.css # General CSS styles
-├── profile-pic.png # Profile picture
-└── other image files # Additional images for your portfolio
+## Project context
 
-yaml
-Copy code
+This is an earlier design experiment. For recent application work, visit [Zubair Zahidi's profile](https://github.com/Zubair-zahidi).
 
----
-
-## ⚡ How to Run
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Zubair-zahidi/Simple-Portfolio.git
+Keep private notes, passwords, and real environment credentials outside the repository. A removed file can remain in Git history; change any real credential that was previously committed.
